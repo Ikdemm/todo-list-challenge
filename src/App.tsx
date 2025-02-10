@@ -1,10 +1,12 @@
 import "./App.css";
+import { TodoProvider } from "./context/TodoContext";
+import TodoList from "./components/TodoList";
 
 function App() {
   return (
-    <>
-      <p>Your Code comes here</p>
-    </>
+    <TodoProvider>
+      <TodoList />
+    </TodoProvider>
   );
 }
 
