@@ -72,7 +72,7 @@ Welcome to your onboarding challenge! 🎉 This challenge is designed to help yo
 ## 📂 Project Structure (Suggested)
 
 ```
-/todo-list
+/todo-list-challenge
  ├── src/
  │   ├── components/
  │   │   ├── TodoItem.tsx
@@ -93,7 +93,7 @@ Welcome to your onboarding challenge! 🎉 This challenge is designed to help yo
 
 ```sh
 git clone [repo-url]
-cd todo-list
+cd todo-list-challenge
 pnpm install
 pnpm run dev
 ```
